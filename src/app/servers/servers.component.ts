@@ -43,9 +43,8 @@ export class ServersComponent implements OnInit {
 
   toggleDetails(event) {
     this.displayDetails = !this.displayDetails;
-    this.clicks.push(this.clicks.length + 1);
+    // this.clicks.push(this.clicks.length + 1);
+    this.clicks.push(new Date());
   }
-
-  // stgdtstst
 
 }
